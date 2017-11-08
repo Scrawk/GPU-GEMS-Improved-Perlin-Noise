@@ -4,6 +4,6 @@ This project is a port of the GPU gems article on improved perlin noise to Unity
 
 As the code has been optimized for the GPU performance is excellent. I achieved frame rates of about 200 for the 4D noise which is quite impressive considering the amount of work that needs to be done. I did attempt to use the same method for generating the 2D noise on the CPU but surprisingly it was slower that the original implementation. This is probably due to the fact that the GPU version has been optimized by use of texture look ups and vector operations which are much slower on the CPU.
 
-See [home page](https://www.digital-dust.com/single-post/2017/03/16/GPU-GEMS-to-Unity-Improved-Perlin-noise) for more information.
+See [home page](https://www.digital-dust.com/single-post/2017/03/16/GPU-GEMS-to-Unity-Improved-Perlin-noise) for more information and unity package download.
 
 ![GPU Perlin Noise](https://static.wixstatic.com/media/1e04d5_7e2bd35435c84ac5aa6c1158de54d056~mv2.jpg/v1/fill/w_486,h_486,al_c,q_80,usm_0.66_1.00_0.01/1e04d5_7e2bd35435c84ac5aa6c1158de54d056~mv2.jpg)
