@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 
 Shader "Noise/ImprovedPerlinNoise2D" 
@@ -27,7 +29,7 @@ Shader "Noise/ImprovedPerlinNoise2D"
 			v2f vert (appdata_base v)
 			{
 			    v2f o;
-			    o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			    o.pos = UnityObjectToClipPos(v.vertex);
 			    o.uv = v.vertex;
 			    return o;
 			}

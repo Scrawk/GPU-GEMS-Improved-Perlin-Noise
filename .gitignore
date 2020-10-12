@@ -3,3 +3,10 @@
 ################################################################################
 
 /UserSettings
+/Temp
+/obj/Debug
+/Logs
+/Library
+/GPU-GEMS-Improved-Perlin-Noise.sln
+/Assembly-CSharp.csproj
+/.vs/GPU-GEMS-Improved-Perlin-Noise/v16/TestStore/0
